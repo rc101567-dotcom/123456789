@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" id="Fzdv)xy2yhb3+,QsvmV|" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="music_playable_play" id="ri_oA!X9nH.8qlYc5!sz"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="music_string_playable" id="]:HN1w+BO}/e[Iph2Vl%"><value name="melody"><shadow type="melody_editor" id="Q#`uCC*o/a42Ak]:/HdB"><field name="melody">"C5 A B G A F G E "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="WwzLJ7r_lpY-G+1,slwG"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">500</field></shadow></value></shadow></value><next><block type="device_show_leds" id="ZG}K7nR1}bi|ozjk,K~]"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="Rihf,d]eo02,il*NG;I|" x="-231" y="301"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="music_playable_play" id="l5[RaaIMmm/#RQ9G5Lz,"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="music_string_playable" id="nl$rhzAd@1%.`:TWVvzp"><value name="melody"><shadow type="melody_editor" id="{z7#GP_7o(da:9VuH[1m"><field name="melody">"- - - - - - - - "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="@{E-~eM*ksJeTRXT;y6."><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow><block type="music_string_playable" id="uqlib:FzJ]o^E#/.Nv`a"><value name="melody"><shadow type="melody_editor" id="W(5faUOR4~-9TYg)^Be~"><field name="melody">"B A G A G F A C5 "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="S@v_og8/w0sSj_jwsQCK"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">500</field></shadow></value></block></value><next><block type="device_show_leds" id="Bi$6;O^+0nK+O}1K30.]"><field name="LEDS">`
+        # # . # # 
+        # # . . # 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></next></block></statement></block></xml>
